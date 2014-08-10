@@ -1,0 +1,165 @@
+@import "compass";
+@import "mixins";
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.display-block{
+  display: block;
+}
+
+.display-inline{
+  display: inline;
+}
+
+.display-hidden{
+  display: inline;
+}
+
+.width-max{
+  width: 100%;
+}
+
+.height-max {
+  height: 100%;
+}
+
+a.link-no-style, a.link-no-style:hover{
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.hand,.cursor-pointer {
+  cursor: pointer;
+}
+
+.bold,.text-bold {
+  font-weight: bold;
+}
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.first {
+  padding-left: 0;
+}
+
+.last {
+  padding-right: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.vertical-text-top {
+  vertical-align: text-top;
+}
+
+.vertical-text-top {
+  vertical-align: text-top;
+}
+
+.opacity-30 {
+  @include opacity(0.3);
+}
+
+.opacity-50 {
+  @include opacity(0.5);
+}
+
+.opacity-60 {
+  @include opacity(0.6);
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+
+@for $i from 0 through 20 {
+  @include text-size(8+($i*2));
+}
+
+@for $i from 0 through 7 {
+  @include text-size(11+($i*2));
+}
+
+@for $i from 0 through 4 {
+  @include text-size(50+($i*10));
+}
+
+
+
+@include create-flex-group("all");
+@include create-margin-group("all");
+@include create-padding-group("all");
+
+@include create-flex-group("xs");
+@include create-margin-group("xs");
+@include create-padding-group("xs");
+
+@media (min-width: 768px) {
+  @include create-flex-group("sm");
+  @include create-margin-group("sm");
+  @include create-padding-group("sm");
+}
+@media (min-width: 992px) {
+  @include create-flex-group("md");
+  @include create-margin-group("md");
+  @include create-padding-group("md");
+}
+
+@media (min-width: 1200px) {
+  @include create-flex-group("lg");
+  @include create-margin-group("lg");
+  @include create-padding-group("lg");
+}
