@@ -1,4 +1,3 @@
-@import "compass";
 @import "mixins";
 
 .position-absolute {
@@ -96,17 +95,7 @@ a.link-no-style, a.link-no-style:hover{
   vertical-align: text-top;
 }
 
-.opacity-30 {
-  @include opacity(0.3);
-}
 
-.opacity-50 {
-  @include opacity(0.5);
-}
-
-.opacity-60 {
-  @include opacity(0.6);
-}
 
 .no-padding {
   padding: 0 !important;

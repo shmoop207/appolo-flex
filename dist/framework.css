@@ -1,158 +1,140 @@
 /*
  *  MIXINS
  */
-/* line 4, ../sass/framework.scss */
+/* line 3, ../sass/framework.scss */
 .position-absolute {
   position: absolute;
 }
 
-/* line 8, ../sass/framework.scss */
+/* line 7, ../sass/framework.scss */
 .position-relative {
   position: relative;
 }
 
-/* line 12, ../sass/framework.scss */
+/* line 11, ../sass/framework.scss */
 .overflow-hidden {
   overflow: hidden;
 }
 
-/* line 16, ../sass/framework.scss */
+/* line 15, ../sass/framework.scss */
 .display-block {
   display: block;
 }
 
-/* line 20, ../sass/framework.scss */
+/* line 19, ../sass/framework.scss */
 .display-inline {
   display: inline;
 }
 
-/* line 24, ../sass/framework.scss */
+/* line 23, ../sass/framework.scss */
 .display-hidden {
   display: inline;
 }
 
-/* line 28, ../sass/framework.scss */
+/* line 27, ../sass/framework.scss */
 .width-max {
   width: 100%;
 }
 
-/* line 32, ../sass/framework.scss */
+/* line 31, ../sass/framework.scss */
 .height-max {
   height: 100%;
 }
 
-/* line 36, ../sass/framework.scss */
+/* line 35, ../sass/framework.scss */
 a.link-no-style, a.link-no-style:hover {
   text-decoration: none;
   color: inherit !important;
 }
 
-/* line 41, ../sass/framework.scss */
+/* line 40, ../sass/framework.scss */
 .underline {
   text-decoration: underline !important;
 }
 
-/* line 45, ../sass/framework.scss */
+/* line 44, ../sass/framework.scss */
 .hand, .cursor-pointer {
   cursor: pointer;
 }
 
-/* line 49, ../sass/framework.scss */
+/* line 48, ../sass/framework.scss */
 .bold, .text-bold {
   font-weight: bold;
 }
 
-/* line 53, ../sass/framework.scss */
+/* line 52, ../sass/framework.scss */
 .text-truncate {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* line 59, ../sass/framework.scss */
+/* line 58, ../sass/framework.scss */
 .align-center {
   text-align: center;
 }
 
-/* line 63, ../sass/framework.scss */
+/* line 62, ../sass/framework.scss */
 .align-left {
   text-align: left;
 }
 
-/* line 67, ../sass/framework.scss */
+/* line 66, ../sass/framework.scss */
 .align-right {
   text-align: right;
 }
 
-/* line 71, ../sass/framework.scss */
+/* line 70, ../sass/framework.scss */
 .first {
   padding-left: 0;
 }
 
-/* line 75, ../sass/framework.scss */
+/* line 74, ../sass/framework.scss */
 .last {
   padding-right: 0;
 }
 
-/* line 79, ../sass/framework.scss */
+/* line 78, ../sass/framework.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 83, ../sass/framework.scss */
+/* line 82, ../sass/framework.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 87, ../sass/framework.scss */
+/* line 86, ../sass/framework.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 91, ../sass/framework.scss */
+/* line 90, ../sass/framework.scss */
 .vertical-text-top {
   vertical-align: text-top;
 }
 
-/* line 95, ../sass/framework.scss */
+/* line 94, ../sass/framework.scss */
 .vertical-text-top {
   vertical-align: text-top;
 }
 
-/* line 99, ../sass/framework.scss */
-.opacity-30 {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
-  opacity: 0.3;
-}
-
-/* line 103, ../sass/framework.scss */
-.opacity-50 {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-}
-
-/* line 107, ../sass/framework.scss */
-.opacity-60 {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
-}
-
-/* line 111, ../sass/framework.scss */
+/* line 100, ../sass/framework.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 115, ../sass/framework.scss */
+/* line 104, ../sass/framework.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 119, ../sass/framework.scss */
+/* line 108, ../sass/framework.scss */
 .no-border {
   border: none !important;
 }
 
-/* line 123, ../sass/framework.scss */
+/* line 112, ../sass/framework.scss */
 .no-underline {
   text-decoration: none !important;
 }

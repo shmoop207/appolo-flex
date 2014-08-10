@@ -11,7 +11,9 @@
   "keywords": [
     "flex",
     "css",
-    "sass"
+    "sass",
+    "layout",
+    "grid"
   ],
   "license": "MIT",
   "ignore": [

@@ -27,6 +27,15 @@ module.exports = function (grunt) {
                 dest: 'dist/',
                 ext: '.min.css'
             }
+        },
+        bump: {
+            options: {
+                files: ['package.json','bower.json'],
+                commitFiles: ['package.json','bower.json'],
+                pushTo:"origin master"
+
+
+            }
         }
     });
 
@@ -35,6 +44,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
 
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+
+    grunt.loadNpmTasks('grunt-bump');
 
 
     grunt.registerTask('compile',['compass','cssmin']);
