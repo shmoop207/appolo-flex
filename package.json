@@ -1,6 +1,6 @@
 {
   "name": "appolo-flex",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-bump": "0.0.15",
@@ -9,18 +9,11 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "engines": {
-    "node": "=0.10.21"
+    "node": ">0.10.21"
   },
-  "author": {
-    "name": "Roman Svichar",
-    "email": "shmoop207@gmail.com"
-  },
+  "author": "Roman Svichar <shmoop207@gmail.com>",
   "contributors": [
-    {
-      "name": "Udi Talias",
-      "email": "udi.talias@gmail.com",
-      "url": "https://github.com/uditalias"
-    }
+    "Udi Talias <udi.talias@gmail.com> (https://github.com/uditalias)"
   ],
   "licenses": [
     {
@@ -30,6 +23,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shmoop207/appolo-flex"
-  }
+    "url": "git+https://github.com/shmoop207/appolo-flex.git"
+  },
+  "description": "appolo-flex ===========",
+  "bugs": {
+    "url": "https://github.com/shmoop207/appolo-flex/issues"
+  },
+  "homepage": "https://github.com/shmoop207/appolo-flex#readme"
 }
