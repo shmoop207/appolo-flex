@@ -1,23 +1,7 @@
 @import "mixins";
 
-.position-absolute {
-  position: absolute;
-}
-
-.position-relative {
-  position: relative;
-}
-
 .overflow-hidden {
   overflow: hidden;
-}
-
-.display-block{
-  display: block;
-}
-
-.display-inline{
-  display: inline;
 }
 
 .display-hidden{
@@ -126,7 +110,33 @@ a.link-no-style, a.link-no-style:hover{
   @include text-size(50+($i*10));
 }
 
+$display: inline, block, flex, inline-block, none;
+@each $item in $display {
+    .display-#{$item} {
+        display: #{$item};
+    }
+}
 
+$position: fixed, absolute, relative, static;
+@each $item in $position {
+    .position-#{$item} {
+        position: #{$item};
+    }
+}
+
+$align-items: stretch, center, flex-start, flex-end, baseline;
+@each $item in $align-items {
+    .align-#{$item} {
+        align-items: #{$item};
+    }
+}
+
+$justify-content: flex-start, flex-end, center, space-between, space-around;
+@each $item in $align-items {
+    .justify-#{$item} {
+        justify-content: #{$item};
+    }
+}
 
 @include create-flex-group("all");
 @include create-margin-group("all");

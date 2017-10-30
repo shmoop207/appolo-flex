@@ -2,139 +2,119 @@
  *  MIXINS
  */
 /* line 3, ../sass/framework.scss */
-.position-absolute {
-  position: absolute;
-}
-
-/* line 7, ../sass/framework.scss */
-.position-relative {
-  position: relative;
-}
-
-/* line 11, ../sass/framework.scss */
 .overflow-hidden {
   overflow: hidden;
 }
 
-/* line 15, ../sass/framework.scss */
-.display-block {
-  display: block;
-}
-
-/* line 19, ../sass/framework.scss */
-.display-inline {
-  display: inline;
-}
-
-/* line 23, ../sass/framework.scss */
+/* line 7, ../sass/framework.scss */
 .display-hidden {
   display: none;
 }
 
-/* line 27, ../sass/framework.scss */
+/* line 11, ../sass/framework.scss */
 .width-max {
   width: 100%;
 }
 
-/* line 31, ../sass/framework.scss */
+/* line 15, ../sass/framework.scss */
 .height-max {
   height: 100%;
 }
 
-/* line 35, ../sass/framework.scss */
+/* line 19, ../sass/framework.scss */
 a.link-no-style, a.link-no-style:hover {
   text-decoration: none;
   color: inherit !important;
 }
 
-/* line 40, ../sass/framework.scss */
+/* line 24, ../sass/framework.scss */
 .underline {
   text-decoration: underline !important;
 }
 
-/* line 44, ../sass/framework.scss */
+/* line 28, ../sass/framework.scss */
 .hand, .cursor-pointer {
   cursor: pointer;
 }
 
-/* line 48, ../sass/framework.scss */
+/* line 32, ../sass/framework.scss */
 .bold, .text-bold {
   font-weight: bold;
 }
 
-/* line 52, ../sass/framework.scss */
+/* line 36, ../sass/framework.scss */
 .text-truncate {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* line 58, ../sass/framework.scss */
+/* line 42, ../sass/framework.scss */
 .align-center {
   text-align: center;
 }
 
-/* line 62, ../sass/framework.scss */
+/* line 46, ../sass/framework.scss */
 .align-left {
   text-align: left;
 }
 
-/* line 66, ../sass/framework.scss */
+/* line 50, ../sass/framework.scss */
 .align-right {
   text-align: right;
 }
 
-/* line 70, ../sass/framework.scss */
+/* line 54, ../sass/framework.scss */
 .first {
   padding-left: 0;
 }
 
-/* line 74, ../sass/framework.scss */
+/* line 58, ../sass/framework.scss */
 .last {
   padding-right: 0;
 }
 
-/* line 78, ../sass/framework.scss */
+/* line 62, ../sass/framework.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 82, ../sass/framework.scss */
+/* line 66, ../sass/framework.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 86, ../sass/framework.scss */
+/* line 70, ../sass/framework.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 90, ../sass/framework.scss */
+/* line 74, ../sass/framework.scss */
 .vertical-text-top {
   vertical-align: text-top;
 }
 
-/* line 94, ../sass/framework.scss */
+/* line 78, ../sass/framework.scss */
 .vertical-text-top {
   vertical-align: text-top;
 }
 
-/* line 100, ../sass/framework.scss */
+/* line 84, ../sass/framework.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 104, ../sass/framework.scss */
+/* line 88, ../sass/framework.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 108, ../sass/framework.scss */
+/* line 92, ../sass/framework.scss */
 .no-border {
   border: none !important;
 }
 
-/* line 112, ../sass/framework.scss */
+/* line 96, ../sass/framework.scss */
 .no-underline {
   text-decoration: none !important;
 }
@@ -443,6 +423,101 @@ a.link-no-style, a.link-no-style:hover {
 /* line 239, ../sass/mixins.scss */
 .text-90.line-height {
   line-height: 90px;
+}
+
+/* line 115, ../sass/framework.scss */
+.display-inline {
+  display: inline;
+}
+
+/* line 115, ../sass/framework.scss */
+.display-block {
+  display: block;
+}
+
+/* line 115, ../sass/framework.scss */
+.display-flex {
+  display: flex;
+}
+
+/* line 115, ../sass/framework.scss */
+.display-inline-block {
+  display: inline-block;
+}
+
+/* line 115, ../sass/framework.scss */
+.display-none {
+  display: none;
+}
+
+/* line 122, ../sass/framework.scss */
+.position-fixed {
+  position: fixed;
+}
+
+/* line 122, ../sass/framework.scss */
+.position-absolute {
+  position: absolute;
+}
+
+/* line 122, ../sass/framework.scss */
+.position-relative {
+  position: relative;
+}
+
+/* line 122, ../sass/framework.scss */
+.position-static {
+  position: static;
+}
+
+/* line 129, ../sass/framework.scss */
+.align-stretch {
+  align-items: stretch;
+}
+
+/* line 129, ../sass/framework.scss */
+.align-center {
+  align-items: center;
+}
+
+/* line 129, ../sass/framework.scss */
+.align-flex-start {
+  align-items: flex-start;
+}
+
+/* line 129, ../sass/framework.scss */
+.align-flex-end {
+  align-items: flex-end;
+}
+
+/* line 129, ../sass/framework.scss */
+.align-baseline {
+  align-items: baseline;
+}
+
+/* line 136, ../sass/framework.scss */
+.justify-stretch {
+  justify-content: stretch;
+}
+
+/* line 136, ../sass/framework.scss */
+.justify-center {
+  justify-content: center;
+}
+
+/* line 136, ../sass/framework.scss */
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+/* line 136, ../sass/framework.scss */
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+/* line 136, ../sass/framework.scss */
+.justify-baseline {
+  justify-content: baseline;
 }
 
 /* line 89, ../sass/mixins.scss */
